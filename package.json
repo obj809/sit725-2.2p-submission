@@ -1,0 +1,23 @@
+{
+  "name": "sit725-2.2p-submission",
+  "version": "1.0.0",
+  "description": "SIT725 Task 2.2P - Express web server with a calculator REST API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obj809/sit725-2.2p-submission.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obj809/sit725-2.2p-submission/issues"
+  },
+  "homepage": "https://github.com/obj809/sit725-2.2p-submission#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
