@@ -1,7 +1,5 @@
 # sit725-2.2p-submission
 
-SIT725 Task 2.2P: an Express server that serves `public/` and adds two numbers.
-
 ## Run
 
 ```bash
@@ -15,3 +13,9 @@ Open http://localhost:3000
 
 - `GET /add?a=5&b=3` → `8`
 - `POST /add` with JSON `{"a": 5, "b": 3}` → `8`
+
+```bash
+curl -X POST http://localhost:3000/add \
+  -H "Content-Type: application/json" \
+  -d '{"a": 5, "b": 3}'
+```
